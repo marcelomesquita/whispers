@@ -12,7 +12,8 @@ export default function Home() {
 				<a href='#' className=' text-decoration-none'>
 					<h1 className='fs-3'>@fernandaessenciais</h1>
 				</a>
-				<p>Óleos essenciais para seu bem-estar físico e emocional. Sou consultora dōTERRA.</p>
+				<p>Sou consultora dōTERRA, empresa líder de óleos essenciais, uma alternativa natural para seu equilíbrio mental.</p>
+        <p>Uma gota é o que você precisa para seu bem-estar físico e emocional.</p>
 			</header>
 
 			<main className='container'>
