@@ -5,15 +5,21 @@ import profile from '../assets/images/fernandaessenciais.jpg';
 export default function Home() {
 	return (
 		<>
-			<header className='d-flex flex-column text-center p-3'>
-				<a href='#' className='mt-5 mb-3'>
-					<Image src={profile} alt='fernandaessenciais' width='200' height='200' className='avatar rounded-circle' />
-				</a>
-				<a href='#' className=' text-decoration-none'>
-					<h1 className='fs-3'>@fernandaessenciais</h1>
-				</a>
-				<p>Sou consultora dōTERRA, empresa líder de óleos essenciais, uma alternativa natural para seu equilíbrio mental.</p>
-        <p>Uma gota é o que você precisa para seu bem-estar físico e emocional.</p>
+			<header className='container'>
+        <div className='row justify-content-md-center'>
+					<div className='col col-lg-8'>
+            <div className='d-flex flex-column text-center p-3'>
+              <a href='#' className='mt-5 mb-3'>
+                <Image src={profile} alt='fernandaessenciais' width='200' height='200' className='avatar rounded-circle' />
+              </a>
+              <a href='#' className=' text-decoration-none'>
+                <h1 className='fs-3'>@fernandaessenciais</h1>
+              </a>
+              <h2 className='lead'>Sou consultora dōTERRA, empresa líder de óleos essenciais, uma alternativa natural para seu equilíbrio mental.</h2>
+              <p>Óleos essenciais dão suporte para ansiedade, insônia, estresse, cabelos, imunidade, afrodisíacos e outros. Encontre o kit de óleos essenciais doTerra perfeito para você.</p>
+            </div>
+          </div>
+        </div>
 			</header>
 
 			<main className='container'>
@@ -37,8 +43,12 @@ export default function Home() {
 							</a>
 						</div>
 
-						<div className='text-center fs-1 mt-5'>
-							<a href='https://www.facebook.com/fernanda.lustosa.50' target='_blank' className='mx-3'><AiOutlineFacebook /></a>
+            <div className='text-center p-3'>
+              <p>Uma gota é o que você precisa para seu bem-estar físico e emocional.</p>
+            </div>
+
+						<div className='text-center fs-1'>
+							<a href='https://www.facebook.com/profile.php?id=100069260531782' target='_blank' className='mx-3'><AiOutlineFacebook /></a>
 							<a href='https://instagram.com/fernandaessenciais' target='_blank' className='mx-3'><AiOutlineInstagram /></a>
 							<a href='https://wa.me/5561995833000' target='_blank' className='mx-3'><AiOutlineWhatsApp /></a>
 							<a href='mailto:nandartavares@hotmail.com' target='_blank' className='mx-3'><AiOutlineMail /></a>
