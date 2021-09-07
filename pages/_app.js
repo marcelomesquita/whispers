@@ -1,8 +1,16 @@
 import Head from 'next/head'
+import { useEffect } from 'react';
+import { analytics } from '../adapters/firebaseClient';
 
 import '../assets/styles/globals.scss'
 
 export default function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+		if (process.env.ENV === 'production') {
+			analytics();
+		}
+	}, []);
+
   return (
     <>
       <Head>
