@@ -1,0 +1,10 @@
+$primary: #3d5b7d;
+$secondary: #2B7C85;
+$light: #87ACA3;
+$dark: #0C1446;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+header .avatar {
+  border: 0.5rem solid $light !important;
+}
