@@ -3,13 +3,13 @@ import 'firebase/analytics';
 
 if (!firebase.apps.length) {
 	firebase.initializeApp({
-		apiKey: 'AIzaSyD1dAkdKv6DsjmuOq7Y2FqfP7KgjYAFxYQ',
-		authDomain: 'whispers-com-br.firebaseapp.com',
-		projectId: 'whispers-com-br',
-		storageBucket: 'whispers-com-br.appspot.com',
-		messagingSenderId: '591844498304',
-		appId: '1:591844498304:web:6d99529644c982f4377f65',
-		measurementId: 'G-KC9DEQZ0Y7',
+		apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+		authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+		projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+		storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+		messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+		appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+		measurementId: process.env.NEXT_PUBLIC_MEASUREMENT_ID,
 	});
 }
 
