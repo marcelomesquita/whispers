@@ -1,13 +1,27 @@
 import Head from 'next/head'
 import { useEffect } from 'react';
+import { useRouter } from 'next/dist/client/router';
 import { analytics } from '../adapters/firebaseClient';
 
 import '../assets/styles/globals.scss'
 
 export default function MyApp({ Component, pageProps }) {
+  const routers = useRouter();
+
   useEffect(() => {
 		if (process.env.ENV === 'production') {
-			analytics();
+      const logEvent = (url) => {
+        analytics().setCurrentScreen(url);
+        analytics().logEvent('screen_view');
+      };
+
+      routers.events.on('routeChangeComplete', logEvent);
+
+      logEvent(window.location.pathname);
+
+      return () => {
+        routers.events.off('routeChangeComplete', logEvent);
+      };
 		}
 	}, []);
 
