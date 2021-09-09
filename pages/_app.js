@@ -9,9 +9,7 @@ export default function MyApp({ Component, pageProps }) {
   const routers = useRouter();
 
   useEffect(() => {
-    console.log(process.env.NEXT_PUBLIC_PRODUCTION);
 		if (process.env.NEXT_PUBLIC_PRODUCTION) {
-      console.log('+1');
       const logEvent = (url) => {
         analytics().setCurrentScreen(url);
         analytics().logEvent('screen_view');
