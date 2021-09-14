@@ -11,7 +11,7 @@ export default function Home() {
 
 			<main className='d-flex flex-column gap-3 my-3'>
 				<section className='my-3 text-center'>
-					<h2>Curso de Atomaterapia Online</h2>
+					<h2>Curso de Aromaterapia Online</h2>
 					<p className='lead'>Já pensou em aprender um pouco mais sobre aromaterapia e óleos essenciais? 🌱💧</p>
 					<p className='lead'>O curso de aromaterapia online é reconhecido pela ABRATH, acesso vitalício, garantia, suporte, material didático, acesso a um grupo fechado de alunos e muito mais!</p>
 					<p className='lead'>O curso é 100% online. Tudo sobre mais de 30 óleos essenciais, inclusive: uso seguro, diluição correta, sinergias, receitinhas e ainda aborda temas como medicina tradicional chinesa, psicossomática, aplicação em pets, aplicação na maternidade e muito mais.</p>
@@ -24,7 +24,7 @@ export default function Home() {
 				<hr />
 				
 				<section className='my-3 text-center'>
-					<h2>Curso de Atomaterapia na Maternidade</h2>
+					<h2>Curso de Aromaterapia na Maternidade</h2>
 					<p className='lead'>No Curso de Aromaterapia na Maternidade você aprenderá tudo o que precisa para aplicar a aromaterapia para melhorar a qualidade de vida e o bem-estar antes, durante e após a gestação e, claro, no parto.</p>
 					<p className='lead'>O curso ensina sobre a aplicação segura de aromaterapia e dos óleos para fertilidade, gestação, trabalho de parto, pós parto, recém nascidos e para emoções dos papais e mamães nesse momento tão especial.</p>
 					<p className='lead'>O curso está com desconto super especial, aproveita!</p>
