@@ -9,6 +9,8 @@ export default function MyApp({ Component, pageProps }) {
   const routers = useRouter();
 
   useEffect(() => {
+    typeof document !== undefined ? require('bootstrap/dist/js/bootstrap') : null;
+    
 		if (process.env.NEXT_PUBLIC_PRODUCTION) {
       const logEvent = (url) => {
         analytics().setCurrentScreen(url);

@@ -1,10 +1,40 @@
 $primary: #3d5b7d;
-$secondary: #2B7C85;
-$light: #87ACA3;
-$dark: #0C1446;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-header .avatar {
+body {
+  min-height: 100vh;
+}
+
+content {
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.avatar {
   border: 0.5rem solid $light !important;
+}
+
+.cover {
+  min-height: 100vh;
+}
+
+.sumary {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  z-index: 3;
+}
+
+.sumary a {
+  color: $secondary;
+  text-decoration: none;
+}
+
+.sumary a:active,
+.sumary a:focus,
+.sumary a:hover {
+  text-decoration: underline;
 }
