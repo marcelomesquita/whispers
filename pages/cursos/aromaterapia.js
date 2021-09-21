@@ -8,7 +8,7 @@ import abrathcrth from '/assets/images/certified/ABRATH-CRTH.png';
 
 export default function CursoAromaterapia() {
 	//const checkout = 'https://go.hotmart.com/V593021740?src=site'; // página de venda
-	const checkout = 'https://go.hotmart.com/E59302175C?ap=c9d5&src=site'; // página de checkout
+	const checkout = 'https://go.hotmart.com/V59302174O?ap=4448&src=site'; // página de checkout
 
 	return (
 		<Container>
