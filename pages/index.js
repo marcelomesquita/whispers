@@ -32,7 +32,9 @@ export default function Home() {
 							<section className='my-3'>
 								<div className='text-center'>
 									<Link href={`/`}>
-										<Image src={profile} alt='fernandaessenciais' width='200' height='200' className='avatar rounded-circle' />
+										<a>
+											<Image src={profile} alt='fernandaessenciais' width='200' height='200' className='avatar rounded-circle' />
+										</a>
 									</Link>
 								</div>
 								<h1 className='h3 text-primary text-center'>
