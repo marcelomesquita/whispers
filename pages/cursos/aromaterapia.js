@@ -499,7 +499,6 @@ export default function CursoAromaterapia() {
 							<p className='fs-2'>DE: <span className='text-danger text-decoration-line-through'>R$ 847,00</span></p>
 							<p className='fs-2'>POR: <span className='text-success'>R$ 297,00</span></p>
 							<p>ou 12 X R$ 28,94</p>
-							<p className='lead'>promoção válida até o dia 23/09/2021</p>
 							<a href={checkout} target='_blank' className='btn btn-lg btn-success'>
 								Quero me inscrever
 							</a>
